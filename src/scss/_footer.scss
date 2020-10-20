@@ -1,0 +1,36 @@
+footer {
+  height: 256px;
+}
+.footer-wrap {
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-nav {
+  margin: 0;
+
+  border-right: 1px solid $font-dark;
+
+  .nav-link {
+    margin: 0;
+    padding: 0;
+    color: $font-dark;
+    font-size: 21px;
+    padding: 7px 0;
+  }
+}
+.partner-logo {
+  height: 100%;
+  padding-left: 6rem;
+  padding-right: 2rem;
+
+  .logo-img {
+    // height: 70px;
+    //padding: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
