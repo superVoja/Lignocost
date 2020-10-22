@@ -19,10 +19,17 @@
   height: 100%;
   .heading {
     color: $main-color;
-    width: 900px;
+    max-width: 900px;
     z-index: 10;
     text-align: center;
     text-transform: uppercase;
+    max-width: 570px;
+    padding: 2rem 3rem;
+    border: 1px solid $main-color;
+
+    h1 {
+      font-size: 38pt;
+    }
   }
 }
 .events-section {

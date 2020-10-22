@@ -17,13 +17,13 @@
   .heading {
     display: inline-block;
     text-align: center;
-    width: 570px;
-    padding: 3rem 0;
+    max-width: 570px;
+    padding: 2rem 3rem;
     border: 1px solid $main-color;
 
     h1 {
       font-family: $Heading-Lora;
-      font-size: 48pt;
+      font-size: 38pt;
     }
   }
 }
@@ -37,7 +37,7 @@
     color: $font-dark;
   }
   p {
-    font-size: 19px;
+    font-size: 17px;
     font-style: italic;
   }
   a {

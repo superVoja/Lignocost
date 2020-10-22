@@ -19,7 +19,7 @@
   height: 100%;
   .homepage-heading {
     color: $main-color;
-    width: 900px;
+    max-width: 900px;
     z-index: 10;
   }
   .subheading {
@@ -30,6 +30,8 @@
 }
 .what-we-do {
   .content {
-    width: 670px;
+    max-width: 670px;
   }
+}
+@media only screen and (min-width: 33.9em) {
 }
