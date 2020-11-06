@@ -2,6 +2,7 @@
   height: 68px;
   z-index: 99;
   box-shadow: 0 8px 6px -6px #999;
+  background-color: $main-color;
 
   .nav-item {
     border-bottom: 3px solid transparent;
@@ -16,6 +17,7 @@
   .nav-link {
     padding: 20px 16px;
     font-size: 16px;
+    background-color: $main-color;
   }
 }
 

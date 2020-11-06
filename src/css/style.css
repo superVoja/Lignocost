@@ -1,7 +1,8 @@
 .navbar {
   height: 68px;
   z-index: 99;
-  box-shadow: 0 8px 6px -6px #999; }
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: #fff; }
   .navbar .nav-item {
     border-bottom: 3px solid transparent; }
     .navbar .nav-item:hover {
@@ -10,14 +11,15 @@
       border-bottom-color: #579e5e; }
   .navbar .nav-link {
     padding: 20px 16px;
-    font-size: 16px; }
+    font-size: 16px;
+    background-color: #fff; }
 
 .navbar-collapse {
   z-index: 99;
   background-color: #fff; }
 
 .heading-background {
-  background-image: url(../assets/images/Forest1.jpg);
+  background-image: url(../assets/images/homepageBackground.jpg);
   background-position: center;
   background-size: cover;
   height: 548px;
@@ -89,7 +91,7 @@ footer {
       object-fit: cover; }
 
 .events-background {
-  background-image: url(../assets/images/Agenda.jpg);
+  background-image: url(../assets/images/eventsBackground.jpg);
   background-position: center;
   background-size: cover;
   height: 548px;
@@ -147,7 +149,7 @@ footer {
   border-radius: 10px; }
 
 .presentations-background {
-  background-image: url(../assets/images/presentation.jpg);
+  background-image: url(../assets/images/presentationBackground.jpg);
   background-position: center;
   background-size: cover;
   height: 548px;
@@ -183,7 +185,7 @@ footer {
     font-size: 32px; }
 
 .contact-background {
-  background-image: url(../assets/images/ContactPen.jpg);
+  background-image: url(../assets/images/contactBackground.jpg);
   background-position: center;
   background-size: cover;
   height: 548px;
@@ -229,7 +231,7 @@ a:hover {
   color: inherit; }
 
 .about-background {
-  background-image: url(../assets/images/clint-adair-BW0vK-FA3eg-unsplash.jpg);
+  background-image: url(../assets/images/aboutBackground.jpg);
   background-position: center;
   background-size: cover;
   height: 548px;
