@@ -370,7 +370,6 @@ a:hover {
     .references-section .references .content p {
       font-size: 16px; }
   .references-section .overlay-2 {
-    background-image: url("../assets/images/Group 24.png");
     background-size: cover;
     z-index: -10;
     position: absolute;
